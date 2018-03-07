@@ -1,0 +1,6 @@
+project Step1 is
+   for Main use ("main.adb");
+   for Runtime ("ada") use "ravenscar-full-stm32f4";
+   for Target use "arm-eabi";
+end Step1;
+
